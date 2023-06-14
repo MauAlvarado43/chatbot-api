@@ -1,0 +1,1 @@
+python3 ./seed/docs/assets/aws-code-deploy/codedeploy.py $@

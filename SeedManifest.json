@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "attrs": [
+        {
+          "card": {
+            "has": "0..*",
+            "ref": "1"
+          },
+          "is_fk": true,
+          "name": "user",
+          "type": "user"
+        },
+        {
+          "name": "type",
+          "options": [
+            "USER",
+            "BOT"
+          ],
+          "type": "enum"
+        },
+        {
+          "name": "message",
+          "type": "text"
+        }
+      ],
+      "name": "chat"
+    },
+    {
+      "attrs": [],
+      "name": "user"
+    }
+  ]
+}

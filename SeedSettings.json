@@ -1,0 +1,24 @@
+{
+  "api": {
+    "include": {
+      "*": "*"
+    }
+  },
+  "extend": {
+    "models": [],
+    "routes": [
+      "chat"
+    ],
+    "schema_types": [],
+    "serializers": []
+  },
+  "graphql": {
+    "include": {
+      "*": "*"
+    }
+  },
+  "last_build_version": "0.6.2",
+  "platform": "django",
+  "project_description": "This repository holds the source code of Chatbot Api",
+  "project_name": "Chatbot Api"
+}
